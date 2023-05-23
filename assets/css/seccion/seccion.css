@@ -1,0 +1,121 @@
+.categorias{
+    margin: 0 4%;
+    padding: 0.5rem 0;
+}
+
+.categoria{
+    margin: 2rem 0;
+}
+.categoria__tipo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0rem;
+}
+
+.categoria__titulo{
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-base--negro-1);
+}
+
+.categoria__ver-todo{
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--color-base--azul);
+
+    padding-top: 0.6rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.categoria__ver-todo:hover{
+    text-decoration: underline;
+}
+
+.categoria__ver-todo img{
+    margin-left: 0.3rem;
+}
+
+.categoria__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*Molécula producto*/
+.producto{
+    width: 44%;
+    
+    margin: 1rem 0.3rem;
+    display: flex;
+    flex-direction: column;
+    color: var(--color-base--negro-1);
+    
+}
+
+.producto__caja-imagen{
+    width:100%;
+    height: 10rem;
+    background-color: white;
+    max-width: 100%;
+    max-height: 10rem;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.producto__imagen{
+    
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.producto__nombre{
+    margin-top: 0.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.producto__precio{
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.producto__link{
+    font-weight: 700;
+    color: var(--color-base--azul);
+    justify-self: flex-end;
+}
+
+.producto__link:hover{
+    text-decoration: underline;
+}
+
+
+@media  screen and (min-width:768px){
+    /*Molécula producto*/
+    .producto{
+            width: 23%;    
+    } 
+}
+
+
+@media  screen and (min-width:1024px){ 
+    .categorias{
+        margin: 0 10%;
+        padding: 0.5rem 0;
+    }
+
+    /*Molécula producto*/
+    .producto{
+        width: 20%;    
+    } 
+}

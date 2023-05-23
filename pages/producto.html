@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek | Producto</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="icon" href="../assets/img/icon.svg" />
+</head>
+<body>
+    <header class="encabezado">
+        <div class="container">
+            <a href="../index.html"><img class="encabezado__logo logo" src="../assets/img/Logo-Alura-Geek.svg" alt="Logo de Alura Geek"></a>
+            <a class="encabezado__login" style="display: none;" href="">Login</a>
+            <div class="encabezado__buscador">
+                <a href="">
+                    <img class="encabezado__buscador--icono" src="../assets/img/Lupa.svg" alt="Buscador">
+                </a>
+                <input class="encabezado__buscador--input"clas type="text" placeholder="¿Qué deseas buscar?">
+            </div>
+        </div>
+    </header>
+    <main class="producto-item">
+        <!--<div class="container-item">
+            <section class="producto-item__sobre">
+                <img class="producto-item__imagen" src="../database/content-image/CARG-BK-NSW9015.jpg" alt="">
+                <div class="producto-item__textos" >
+                    <span class="producto-item__nombre">Titulo</span>
+                    <span class="producto-item__precio">$ 490</span>
+                    <span class="producto-item__descripcion">Es el dispositivo de juego portátil más potente y lleno de funcionalidad del mundo. Nos hemos asociado con AMD para crear la APU personalizada de Steam Deck, optimizada para el juego en dispositivos portátiles. Se trata de una potente combinación de las arquitecturas Zen 2 y RDNA 2 que ofrece un rendimiento más que suficiente para ejecutar los últimos juegos AAA en una envolvente de potencia muy eficiente.</span>
+                </div>
+            </section> 
+        </div> -->
+    </main>
+    <main class="categorias">
+        <section class="categoria">
+            <div class="categoria__tipo"> 
+                <h2 class="categoria__titulo">Productos similares</h2>
+                <a class="categoria__ver-todo"href=""></a>
+            </div>
+            <div class="categoria__container">
+    
+            </div> 
+        </section>
+        
+    </main>
+
+    <footer class="rodapie">
+        <div class="rodapie__container">
+            <nav class="rodapie__menu">
+                <ul class="rodapie__lista">
+                    <li class="rodapie__lista--item"><img class="logo" src="../assets/img/Logo-Alura-Geek.svg" alt="Logo de Alura Geek"></li>
+                    <li class="rodapie__lista--item"><a class="rodapie__lista--item-link" href="">Política de privacidad</a></li>
+                    <li class="rodapie__lista--item"><a class="rodapie__lista--item-link" href="">Programa de fidelidad</a></li>
+                    <li class="rodapie__lista--item"><a class="rodapie__lista--item-link" href="">Nuestras tiendas</a></li>
+                    <li class="rodapie__lista--item"><a class="rodapie__lista--item-link" href="">Quiero ser franquiciado</a></li>
+                    <li class="rodapie__lista--item"><a class="rodapie__lista--item-link" href="">Anúncie aquí</a></li>
+                </ul>
+            </nav>
+            <form action="" class="contacto">
+                <fieldset>
+                    <legend class="contacto__titulo">Hable con nosotros</legend>
+                    <div class="contacto__nombre">
+                        <label class="contacto__nombre--label" for="nombre">Nombre</label>
+                        <input class="contacto__nombre--input" name="nombre" type="text" placeholder="Escribe tu nombre aquí" minlength="4" maxlength="50" required data-tipo="nombre">
+                        <span></span>
+                    </div>
+                    <div class="contacto__mensaje">
+                        <textarea class="contacto__mensaje--textarea" name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje" minlength="4" maxlength="300" required data-tipo="mensaje"></textarea>
+                    </div>
+    
+                    <button class="contacto__submit" type="submit">Enviar mensaje</button>
+                </fieldset>
+            </form>
+        </div>
+        <div class="rodapie__creador">
+            <h2>Creado por Anderson Ordoñez | ONE G4 | 2023</h2>
+        </div>
+    </footer>
+    <script type="module" src="../database/controller/app-producto-item.js"></script>
+</body>
+</html>

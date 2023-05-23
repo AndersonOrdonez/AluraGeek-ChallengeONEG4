@@ -1,0 +1,18 @@
+.todos__link {
+    
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--color-base--blanco);
+    background-color: var(--color-base--azul);
+    
+    border: 2px solid var(--color-base--azul);
+    padding: 0.5rem 4%;
+    border-radius: 0px;
+    
+    
+    
+}
+
+.todos__link:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,111 @@
+{
+  "usuario": [
+    {
+      "id": "1",
+      "nombre": "Anderson",
+      "email": "and@and.com",
+      "password": "1234"
+    },
+    {
+      "id": "561541ce-d7d5-4b35-b744-131e7db434c1",
+      "nombre": "Anderson Ordonez",
+      "email": "andjanderson23@gmail.com",
+      "password": "12345678"
+    }
+  ],
+  "categoria": [
+    {
+      "id": "1",
+      "nombre": "Entretenimiento digital",
+      "idClass": "entretenimiento-digital"
+    },
+    {
+      "id": "2",
+      "nombre": "Accesorios para Nintendo Switch",
+      "idClass": "accesorios-para-nintendo-switch"
+    }
+  ],
+  "producto": [
+    {
+      "id": "561541ce-d7d5-4b35-b744-131e7db434a0",
+      "nombre": "DREAMGEAR GAMERS KIT PARA SWITCH OLED CON CASE CARGADOR AUDIFONO CABLE",
+      "precio": "495",
+      "imagen": "./database/content-image/GMKIT-DG-SWO.jpg",
+      "descripcion": "DREAMGEAR GAMERS KIT PARA SWITCH OLED CON CASE CARGADOR AUDIFONO CABLE",
+      "categoria": "Accesorios para Nintendo Switch",
+      "idCategoria": "accesorios-para-nintendo-switch"
+    },
+    {
+      "id": "561541ce-d7d5-4b35-b744-131e7db434a1",
+      "nombre": "BIONIK CARGADOR TETRA POWER 4 PUERTOS PARA CONTROL JOYCON DE SWITCH",
+      "precio": "198",
+      "imagen": "./database/content-image/CARGJC-BK-TETPW.jpg",
+      "descripcion": "BIONIK CARGADOR TETRA POWER 4 PUERTOS PARA CONTROL JOYCON DE SWITCH",
+      "categoria": "Accesorios para Nintendo Switch",
+      "idCategoria": "accesorios-para-nintendo-switch"
+    },
+    {
+      "id": "561541ce-d7d5-4b35-b744-131e7db434a2",
+      "nombre": "DREAMGEAR ESTUCHE NINTENDO SWITCH OLED CON PROTEC PANTALLA DGSWO-6553",
+      "precio": "110",
+      "imagen": "./database/content-image/ESTP-DG-SWO552N.jpg",
+      "descripcion": "DREAMGEAR ESTUCHE NINTENDO SWITCH OLED CON PROTEC PANTALLA DGSWO-6553",
+      "categoria": "Accesorios para Nintendo Switch",
+      "idCategoria": "accesorios-para-nintendo-switch"
+    },
+    {
+      "id": "561541ce-d7d5-4b35-b744-131e7db434a3",
+      "nombre": "BIONIK CARGADOR RAPIDO PARA NINTENDO SWITCH BNK-9015",
+      "precio": "235",
+      "imagen": "./database/content-image/CARG-BK-NSW9015.jpg",
+      "descripcion": "BIONIK CARGADOR RAPIDO PARA NINTENDO SWITCH BNK-9015",
+      "categoria": "Accesorios para Nintendo Switch",
+      "idCategoria": "accesorios-para-nintendo-switch"
+    },
+    {
+      "id": "561541ce-d7d5-4b35-b744-131e7db434b4",
+      "nombre": "BIONIK PROTECTOR PANTALLA PARA NINTENDO SWITCH OLED SCREEN DEFENDER",
+      "precio": "90",
+      "imagen": "./database/content-image/PROPN-BK-NSO89.jpg",
+      "descripcion": "BIONIK PROTECTOR PANTALLA PARA NINTENDO SWITCH OLED SCREEN DEFENDER",
+      "categoria": "Accesorios para Nintendo Switch",
+      "idCategoria": "accesorios-para-nintendo-switch"
+    },
+    {
+      "id": "561541ce-d7d5-4b35-b744-131e7db434a5",
+      "nombre": "CONSOLA VALVE STEAMDECK DE 64GB 1280 X 800 7 IPS",
+      "precio": "5,505",
+      "imagen": "./database/content-image/VALVE-STMDK-64G.jpg",
+      "descripcion": "Es el dispositivo de juego portátil más potente y lleno de funcionalidad del mundo. Nos hemos asociado con AMD para crear la APU personalizada de Steam Deck, optimizada para el juego en dispositivos portátiles. Se trata de una potente combinación de las arquitecturas Zen 2 y RDNA 2 que ofrece un rendimiento más que suficiente para ejecutar los últimos juegos AAA en una envolvente de potencia muy eficiente.",
+      "categoria": "Entretenimiento digital",
+      "idCategoria": "entretenimiento-digital"
+    },
+    {
+      "id": "561541ce-d7d5-4b35-b744-131e7db434a6",
+      "nombre": "GAMEPAD MICROSOFT INALAMBRICO XBOX ONE NEGRO CON USB-C 1V8-00016",
+      "precio": "585",
+      "imagen": "./database/content-image/GAMPD-MS-XBX16.jpg",
+      "descripcion": "Disfruta del diseño modernizado del mando inalámbrico Xbox, con superficies esculpidas y una geometría refinada para una mayor comodidad durante el juego. Juega de forma inalámbrica o usa el cable USB-C de 2,7 m incluido para disfrutar de una experiencia de juego con cable. Mantén el objetivo con un mando de dirección híbrido y agarre texturizado en los gatillos, botones y funda trasera.",
+      "categoria": "Entretenimiento digital",
+      "idCategoria": "entretenimiento-digital"
+    },
+    {
+      "id": "561541ce-d7d5-4b35-b744-131e7db434a7",
+      "nombre": "TABLETA DIGIT WACOM CINTIQ 16 15.6 DTK-1660 K0-AB",
+      "precio": "6,400",
+      "imagen": "./database/content-image/DIG-WAC-CINT16.jpg",
+      "descripcion": "Cuando esté listo para pasar a crear directamente en la pantalla, Wacom Cintiq es su producto de referencia para llevar su trabajo al siguiente nivel. Ya sea que todavía esté generando en papel o usando una tableta digitalizadora, la interacción fluida de Wacom Cintiq entre el lápiz y la pantalla se sentirá natural y llevará sus habilidades al siguiente nivel",
+      "categoria": "Entretenimiento digital",
+      "idCategoria": "entretenimiento-digital"
+    },
+    {
+      "id": "561541ce-d7d5-4b35-b744-131e7db434a8",
+      "nombre": "CONSOLA VALVE STEAMDECK DE 256GB 1280 X 800 7 IPS",
+      "precio": "7,510",
+      "imagen": "./database/content-image/VALVE-STMDK-256.jpg",
+      "descripcion": "Es el dispositivo de juego portátil más potente y lleno de funcionalidad del mundo. Nos hemos asociado con AMD para crear la APU personalizada de Steam Deck, optimizada para el juego en dispositivos portátiles. Se trata de una potente combinación de las arquitecturas Zen 2 y RDNA 2 que ofrece un rendimiento más que suficiente para ejecutar los últimos juegos AAA en una envolvente de potencia muy eficiente.",
+      "categoria": "Entretenimiento digital",
+      "idCategoria": "entretenimiento-digital"
+    }
+  ]
+}

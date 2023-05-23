@@ -1,0 +1,87 @@
+.encabezado{
+    margin: 0 4%;
+}
+.encabezado .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+
+
+/*Molécula Login*/
+.encabezado__login {
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--color-base--azul);
+
+    border: 2px solid var(--color-base--azul);
+    padding: 0.5rem 4%;
+    border-radius: 0px;
+}
+
+.encabezado__login:hover {
+    color: var(--color-base--blanco);
+
+    border: 2px solid var(--color-base--azul);
+    background-color: var(--color-base--azul);
+}
+
+/*Molécula buscador*/
+.encabezado__buscador{
+    display: flex;
+    align-items: center;
+}
+
+.encabezado__buscador--icono{
+    height: 1.4rem;
+}
+
+.encabezado__buscador--input{
+    display: none;
+}
+
+@media  screen and (min-width:768px){ 
+
+    .encabezado__login {
+        order: 1;
+    }
+
+    /*Molécula buscador*/
+    .encabezado__buscador{
+        width: 35%;
+        flex-direction: row-reverse;
+    }
+
+    .encabezado__buscador--icono{
+        position: relative;
+        left: -2rem;
+    }
+    .encabezado__buscador--input{
+        display: block;
+
+        height: 2.5rem;
+        width: 100%;
+        padding-left: 0.8rem;
+        background-color: var(--color-base--gris-claro);
+        border-style: none;
+        border-radius: 20px;
+
+        font-size: 1rem;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .encabezado__buscador--input::placeholder{
+        color: var(--color-base--gris-oscuro);
+        font-size: 1rem;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    
+}
+
+@media  screen and (min-width:1024px){ 
+    .encabezado{
+        margin: 0 10%;
+    }
+} 

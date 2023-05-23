@@ -1,0 +1,53 @@
+.banner{
+    background-image: url(../../img/background/background-image.jpg);
+    height: 20rem;
+
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white;
+}
+
+.banner__container{
+    margin: 1rem 4%;
+    padding: 0.5rem 0;
+    height: 90%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;   
+}
+
+.promocional__titulo{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 0.4rem;
+}
+
+.promocional__subtitulo{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.8rem;
+}
+
+.promocional__titulo--link{
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--color-base--blanco);
+    background-color: var(--color-base--azul);
+
+    border: 2px solid var(--color-base--azul);
+    padding: 0.5rem 4%;
+    border-radius: 0px;
+}
+
+.promocional__titulo--link:hover {
+    text-decoration: underline;
+}
+
+@media  screen and (min-width:1024px){ 
+    .banner__container{
+        margin: 1rem 10%;;
+    }
+} 

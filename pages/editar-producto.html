@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek | Editar producto</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="icon" href="../assets/img/icon.svg" />
+</head>
+<body>
+    <header class="encabezado">
+        <div class="container">
+            <a href="../index.html"><img class="encabezado__logo logo" src="../assets/img/Logo-Alura-Geek.svg" alt="Logo de Alura Geek"></a>
+            <a class="encabezado__login" style="display: none;" href="">Login</a>
+            <div class="encabezado__buscador">
+                <a href="">
+                    <img class="encabezado__buscador--icono" src="../assets/img/Lupa.svg" alt="Buscador">
+                </a>
+                <input class="encabezado__buscador--input"clas type="text" placeholder="¿Qué deseas buscar?">
+            </div>
+        </div>
+    </header>
+    <main class="login-container">
+        <form class='login__form' action="" data-form>
+            <h3 class="login__titulo">Agregar nuevo producto</h3>
+
+            <label class="login__name" for="URLImagen" >URL de la imagen</label>
+            <input class="login__input" name="URLImagen" type="text" required placeholder="URL de imagen" data-URLImagen>
+
+            <label class="login__name"  for="categoria">Categoría</label>
+            <input class="login__input" list="browsers" name="categoria" type="text" required placeholder="Categoría del Producto" data-categoria>
+            <datalist id="browsers">
+                <option value="Entretenimiento digital">
+                <option value="Accesorios para Nintendo Switch">
+            </datalist>
+
+            <label class="login__name" for="nombre" >Nombre del producto </label>
+            <input class="login__input" name="nombre" type="text" required placeholder="Nombre del producto" data-nombre>
+
+            <label class="login__name" for="precio" >Precio del producto</label>
+            <input class="login__input" name="precio" type="text" required placeholder="Precio del producto" data-precio>
+
+            <div class="descripcion">
+                <textarea class="descripcion--textarea" name="" id="" cols="30" rows="10" placeholder="Descripción del producto" minlength="4" maxlength="300" required data-descripcion ></textarea>
+            </div>
+
+
+            <button type="submit" class="login__button">Agregar producto</button>
+        </form>
+    </main>
+
+    <footer class="rodapie">
+        <div class="rodapie__container">
+            <nav class="rodapie__menu">
+                <ul class="rodapie__lista">
+                    <li class="rodapie__lista--item"><img class="logo" src="../assets/img/Logo-Alura-Geek.svg" alt="Logo de Alura Geek"></li>
+                    <li class="rodapie__lista--item"><a class="rodapie__lista--item-link" href="">Política de privacidad</a></li>
+                    <li class="rodapie__lista--item"><a class="rodapie__lista--item-link" href="">Programa de fidelidad</a></li>
+                    <li class="rodapie__lista--item"><a class="rodapie__lista--item-link" href="">Nuestras tiendas</a></li>
+                    <li class="rodapie__lista--item"><a class="rodapie__lista--item-link" href="">Quiero ser franquiciado</a></li>
+                    <li class="rodapie__lista--item"><a class="rodapie__lista--item-link" href="">Anúncie aquí</a></li>
+                </ul>
+            </nav>
+            <form action="" class="contacto">
+                <fieldset>
+                    <legend class="contacto__titulo">Hable con nosotros</legend>
+                    <div class="contacto__nombre">
+                        <label class="contacto__nombre--label" for="nombre">Nombre</label>
+                        <input class="contacto__nombre--input" name="nombre" type="text" placeholder="Escribe tu nombre aquí" minlength="4" maxlength="50" required data-tipo="nombre">
+                        <span></span>
+                    </div>
+                    <div class="contacto__mensaje">
+                        <textarea class="contacto__mensaje--textarea" name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje" minlength="4" maxlength="300" required data-tipo="mensaje"></textarea>
+                    </div>
+    
+                    <button class="contacto__submit" type="submit">Enviar mensaje</button>
+                </fieldset>
+            </form>
+        </div>
+        <div class="rodapie__creador">
+            <h2>Creado por Anderson Ordoñez | ONE G4 | 2023</h2>
+        </div>
+    </footer>
+    <script type="module" src="../database/controller/app-editar-producto.js"></script>
+</body>
+</html>

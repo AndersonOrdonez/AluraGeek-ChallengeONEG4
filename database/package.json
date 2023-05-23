@@ -1,0 +1,13 @@
+{
+  "name": "appservice",
+  "version": "1.0.0",
+  "description": "App service CRUD",
+  "main": "appservice.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["AluraGeek"],
+  "author": "Anderson Ordoñez",
+  "license": "ISC",
+  "type": "module"
+}
