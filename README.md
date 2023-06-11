@@ -2,7 +2,7 @@
 # AluraGeek Challenge ONE G4 🚀  
 Challenge ONE Front-End - AluraGeek:
 Creando tu proprio e-commerce.
-> **[Ver demostración](https://alurageek-challengeoneg4.vercel.app)**
+> **[Ver demostración](https://alurageek-challengeoneg4.vercel.app/index.html)**
 
 El siguiente proyecto es parte de la formación de Front End de ONE - Oracle Next Generation con Alura Latam. **Se pone a prueba nuestro conocimiento en HTML, CSS y JavaScript, y el manejo de CRUD con FETCH API.**  
 
