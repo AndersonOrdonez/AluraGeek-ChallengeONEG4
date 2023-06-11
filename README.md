@@ -1,8 +1,8 @@
 📝🚀 🔥 ✨   
 # AluraGeek Challenge ONE G4 🚀  
-Challenge ONE Front-End
-Sprint 02 - AluraGeek:
+Challenge ONE Front-End - AluraGeek:
 Creando tu proprio e-commerce.
+> **[Ver demostración](https://alurageek-challengeoneg4.vercel.app)**
 
 El siguiente proyecto es parte de la formación de Front End de ONE - Oracle Next Generation con Alura Latam. **Se pone a prueba nuestro conocimiento en HTML, CSS y JavaScript, y el manejo de CRUD con FETCH API.**  
 
@@ -28,6 +28,3 @@ Para ello están pidiendo nuestra ayuda como desarrolladores, el e-commerce debe
 **Es muy importante que el sitio sea adaptable**  para que los clientes puedan comprar fácilmente a través de dispositivos móviles
 ### Diseño Figma
 * https://www.figma.com/file/NUd563IRcuwUGyFGTwPP5W/AluraGeek?node-id=1%3A34
-
-### Página de demostración
-> [Aquí está el link](https://example.com)
