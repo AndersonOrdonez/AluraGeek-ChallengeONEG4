@@ -1,0 +1,15 @@
+{
+  "name": "server-database",
+  "version": "1.0.0",
+  "description": "Carpeta con los datos para funcinar con render.com",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Anderson Ordoñez",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "json-server": "^0.17.3"
+  }
+}
